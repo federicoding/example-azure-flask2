@@ -12,3 +12,6 @@ def hello():
         'greeting': 'Hello Bro, ' + name + '!!'
     }
     return jsonify(response)
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0',port=5000)
